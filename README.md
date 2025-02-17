@@ -22,8 +22,8 @@ This project uses an Arduino to control a 7-segment display through the 74HC595 
 
 ## Installation and Usage
 ### 1. Arduino Setup
-1. Upload the `crispin.ino` file to the Arduino using the Arduino IDE.
-2. Connect the 7-segment display to the Arduino via the 74HC595.
+1. Upload the `main.ino` file to the Arduino using the Arduino IDE.
+2. Connect the 7-segment display to the Arduino using the schematics below.
 3. Configure the serial port in the Arduino code to match the system.
 
 ### 2. PC Setup
@@ -32,10 +32,10 @@ This project uses an Arduino to control a 7-segment display through the 74HC595 
    ```sh
    pip install pyserial
    ```
-3. Modify `crispin.py` to set the correct serial port for the Arduino connection.
+3. Modify `timeSender.py` to set the correct serial port for the Arduino connection.
 4. Run the Python script:
    ```sh
-   python crispin.py
+   python timeSender.py
    ```
 
 The script will send the current date and time to the Arduino, which will display it on the 7-segment screen.
