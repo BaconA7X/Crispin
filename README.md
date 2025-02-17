@@ -40,6 +40,9 @@ This project uses an Arduino to control a 7-segment display through the 74HC595 
 
 The script will send the current date and time to the Arduino, which will display it on the 7-segment screen.
 
+## Connection diagram
+![Schematic Diagram](Images/Schematic.png)
+
 ## License
 This project is open-source. You are free to use and modify it.
 
