@@ -4,8 +4,8 @@
 This project uses an Arduino to control a 7-segment display through the 74HC595 shift register. Additionally, a Python script sends the current date and time from a computer to the Arduino via the serial port, allowing the information to be displayed on the screen.
 
 ## Included Files
-- `crispin.ino`: Arduino code to receive data from the serial port and control the 7-segment display.
-- `crispin.py`: Python script that sends the current date and time to the Arduino via serial communication.
+- `main.ino`: Arduino code to receive data from the serial port and control the 7-segment display.
+- `timeSender.py`: Python script that sends the current date and time to the Arduino via serial communication.
 
 ## Requirements
 ### Hardware
