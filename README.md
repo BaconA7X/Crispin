@@ -11,6 +11,7 @@ This project uses an Arduino to control a 7-segment display through the 74HC595 
 ### Hardware
 - Arduino (any model compatible with 74HC595, I use Arduino Nano)
 - 7-segment display with 74HC595 shift register from Aliexpress
+   ![7-Segment Display Setup](Images/74HC595.webp)
 - Connection wires
 - Suitable power supply
 
@@ -43,5 +44,7 @@ The script will send the current date and time to the Arduino, which will displa
 This project is open-source. You are free to use and modify it.
 
 ## Author
-Project developed by [Your Name or GitHub Username]
+Project developed by BaconA7X
+
+
 
