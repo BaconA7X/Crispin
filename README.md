@@ -2,6 +2,9 @@
 
 ## Description
 This project is designed to complement a retro sleeper PC. It uses an Arduino to control a 7-segment display through the 74HC595 shift register. Additionally, a Python script sends the current date and time from a computer to the Arduino via the serial port, allowing the information to be displayed on the screen.
+![Booting Up](Images/booting_up.jpeg)
+![Date](Images/date.jpeg)
+![Time](Images/time.jpeg)
 
 ## Included Files
 - `main.ino`: Arduino code to receive data from the serial port and control the 7-segment display.
