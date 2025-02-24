@@ -16,12 +16,11 @@ This project is designed to complement a retro sleeper PC. It uses an Arduino to
 - 7-segment display with 74HC595 shift register from Aliexpress
    ![7-Segment Display Setup](Images/74HC595.webp)
 - Connection wires
-- Suitable power supply
 
 ### Software
 - Arduino IDE
-- Python 3.x
-- `pyserial` library for Python (install with `pip install pyserial`)
+- Python 3
+- `pyserial` library for Python
 
 ## Installation and Usage
 ### 1. Arduino Setup
